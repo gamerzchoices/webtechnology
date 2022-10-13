@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <style>
+        header {
+            padding: 1px;
+            background-color: rgb(13, 204, 13);
+            color: white;
+            text-align: center;
+        }
+
+        footer {
+            padding: 0px;
+            background-color: rgb(13, 204, 13);
+            color: white;
+            text-align: center;
+        }
+
+        #navBar ul li {
+            padding: 3px;
+            display: inline;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my profile</h1>
+    </header>
+
+    <nav id="navBar">
+        <ul type="none">
+            <li><a href="index.html" target="_self">Home</a></li>
+            <li><a href="interest.html" target="_blank">Interest</a></li>
+            <li><a href="qualification.html" target="_blank">Qualifications</a></li>
+            <li><a href="gallery.html" target="_blank">Gallery</a></li>
+            <li><a href="contact.html" target="_blank">Contact me</a></li>
+        </ul>
+    </nav>
+
+    <h2><u>Contact Form</u></h2>
+
+    <fieldset>
+        <legend><b>Enter your Details</b></legend>
+        <form action="Backend url" method="GET|POST">
+            <label>Full Name</label>
+            <input type="text" name="fullName" id="fullName" placeholder="Enter Full name"><br><br>
+
+            <label>Email</label>
+            <input type="text" name="email" id="" placeholder="Email"><br><br>
+
+            <label>Phone</label>
+            <input type="number" name="Phone" id="phone" placeholder="Phone Number"><br><br>
+
+
+            <label>Gender</label><br>
+            <input type="radio" name="Gender" id="gender">Male
+            <input type="radio" name="Gender" id="gender">Female
+            <input type="radio" name="Gender" id="gender">Others <br><br>
+
+            <label>Country</label>
+            <select>
+                <option>Nepal</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Others</option>
+            </select><br><br>
+
+            <label>Language</label>
+            <input type="checkbox" name="Language" id="Nepali">Nepali
+            <input type="checkbox" name="Language" id="English">English
+            <input type="checkbox" name="Language" id="Other">Other<br><br>
+
+            <label for="">File upload</label>
+            <input type="file" name="" id=""><br><br>
+
+            <label>Message</label>
+            <textarea cols="50" rows="10"></textarea><br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </fieldset>
+
+    <footer>
+        <h4>Copyright 2022 Prabesh Gupta</h4>
+    </footer>
+
+</body>
+
+</html>

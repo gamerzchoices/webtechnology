@@ -1,0 +1,188 @@
+body {
+    margin: 0px;
+    background-color: #f1f1f1;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgb(51, 161, 51);
+    color: white;
+    text-align: center;
+    padding: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav a {
+    float: left;
+    color: white;
+    padding: 14px 18px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.07);
+}
+
+div.bannerArt {
+    width: 1320px;
+    border: 2px solid black;
+    float: left;
+    margin: 13px;
+
+
+}
+
+div.bannerArt img {
+    width: 100%;
+    height: auto;
+}
+
+div.bannerArt:hover {
+    border: 2px solid rgb(51, 161, 51);
+    transform: scale(1.01);
+}
+
+
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.column.side {
+    width: 25%;
+}
+
+.column.middle {
+    width: 40%;
+}
+
+section div div p {
+    text-align: justify;
+}
+
+div.interest {
+    padding: 10px;
+    text-align: left;
+
+}
+
+div.interest ol li {
+
+    margin-top: 10px;
+    font-weight: bold;
+
+
+}
+
+div.interest ol li ul li {
+    font-weight: normal;
+}
+
+div.books {
+    padding: 10px;
+}
+
+div.books dt {
+    padding: 5px;
+    margin: 5px;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px 15px;
+    margin: 5px;
+}
+
+tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+th {
+    background-color: rgb(133, 133, 133);
+    color: white;
+}
+
+div.photos {
+    float: left;
+    width: 245px;
+    border: 2px solid black;
+    margin: 10px;
+
+}
+
+div.photos img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 7px;
+    text-align: center;
+}
+
+div.photos:hover {
+    border: 2px solid rgb(51, 161, 51);
+    transform: scale(1.07);
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: 1px solid black;
+    resize: vertical;
+}
+
+input[type=submit] {
+    padding: 20px;
+    margin: 5px;
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(48, 221, 48);
+    color: white;
+}
+
+footer {
+    position: sticky;
+    top: 100%;
+    clear: both;
+    background-color: rgb(51, 161, 51);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+@media screen and (max-width: 617px) {
+
+    .column.middle,
+    .column.side {
+        width: 100%;
+    }
+}

@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    border: 2px solid gray;
+    height: 70vh;
+
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.item {
+
+    margin: 20px;
+    background-color: yellow;
+    color: black;
+    height: 100px;
+    width: 100px;
+}
+
+.one {
+    order: 3;
+    align-self: flex-start;
+}
+
+.two {
+    order: 4;
+    flex-grow: 2;
+}
+
+.three {
+    order: 1;
+    flex-shrink: 2;
+}
+
+.four {
+    order: 2;
+}

@@ -1,0 +1,13 @@
+.setDesign {
+    background-color: rgb(241, 176, 55);
+    color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+
+.setTableDesign {
+    color: rgb(219, 52, 52);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+
+}

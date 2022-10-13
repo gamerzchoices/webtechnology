@@ -1,0 +1,141 @@
+DISPLAY ALL DATA FROM DB
+
+SELECT * FROM staff; // * MEANS ALL
+
+
+DISPLAY SPECIFIC DATA 
+
+SELECT * FROM staff WHERE id = 1;  // FOR INTEGERS
+SELECT * FROM staff WHERE name='Prabesh Gupta'; // FOR VARCHAR
+
+SELECT age FROM staff WHERE name = 'Prabesh Gupta';
+
+
+
+DISPLAY ONLY DATA FROM ONE TABLE 
+
+SELECT name FROM staff;
+
+
+DISPLAY MULTILE DATA FROM TABLE
+
+SELECT name,salary FROM staff;
+
+
+DISPLAY NON REPEATED ITEMS
+
+SELECT DISTINCT(name) FROM staff;
+
+
+AND
+
+SELECT * FROM staff WHERE age> 24 AND salary>15007;
+
+
+OR
+
+SELECT * FROM staff WHERE age> 24 OR salary>15007;
+
+
+NOT
+
+SELECT * FROM staff WHERE name <> 'Naresh Yadav';
+SELECT * FROM staff WHERE id <> 5;
+
+
+DESCENDING ORDER
+
+SELECT * FROM `staff` ORDER BY id DESC;
+
+
+ASCENDING ORDER
+
+SELECT * FROM staff ORDER BY name ASC;
+
+
+
+SHOW FIRST 3 DATA
+
+SELECT * FROM staff LIMIT 3;
+
+
+SHOW LAST 4 DATA
+
+SELECT * FROM staff ORDER BY id DESC LIMIT 4;
+
+
+COUNT DATA
+
+SELECT COUNT(id) FROM staff;
+
+
+MAXIMUM DATA
+
+SELECT MAX(salary) FROM staff;
+
+
+MINIMUM DATA
+
+SELECT MIN(salary) FROM staff;
+
+
+SUM DATA
+
+SELECT SUM(salary) FROM staff;
+
+
+AVERAGE DATA
+
+SELECT AVG(salary) FROM staff;
+
+
+SEARCH FROM PARTICULAR WORD [IMPORTANT]
+
+SELECT * FROM staff WHERE name LIKE 'P%'; // STARTS WITH WORD P
+SELECT * FROM staff WHERE name LIKE '%l'; // ENDS WITH WORD L
+
+
+CREATE A DATABASE
+
+CREATE DATABASE myschool;
+
+
+CREATE TABLE
+
+CREATE TABLE student(
+    id int AUTO_INCREMENT,
+    name varchar(100),
+    age int,
+    address varchar(120),
+    gender varchar(10),
+    class int,
+    PRIMARY KEY(id)    
+    
+);
+
+
+INSERTING DATA
+
+INSERT INTO staff(id,name,age,address,phone,salary) VALUES (null,'Rupesh Magar',23,'Dharan',9636534326,36342); // NULL means Khali not 0
+
+
+INSERT INTO student(id,name,age,address,class,gender) VALUES (null,'Ramesh Prasai',14,'Kapan',9,'Male');
+INSERT INTO student(id,name,age,address,class,gender) VALUES (null,'Aditya Sapkota',15,'Pepsicola',9,'Male');
+INSERT INTO student(id,name,age,address,class,gender) VALUES (null,'Balkrishna Dhungana',15,'Sanepa',9,'Male');
+INSERT INTO student(id,name,age,address,class,gender) VALUES (null,'Gauri Basnet',14,'Thapathali',9,'Female');
+INSERT INTO student(id,name,age,address,class,gender) VALUES (null,'Punya Gautam',16,'Maharahgunj',9,'Male');
+
+
+UPDATING DATA
+
+UPDATE staff SET age =24, phone=9816534003 WHERE id = 7;
+
+UPDATE student SET class =10 WHERE id =5;
+
+
+DELETING DATA
+
+DELETE FROM staff WHERE id = 7;
+
+
+
