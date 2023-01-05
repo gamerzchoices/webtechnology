@@ -1,0 +1,40 @@
+.container {
+    border: 5px solid pink;
+}
+
+.row {
+    border: 5px solid brown;
+}
+
+.container-fluid {
+    margin-top: 5px;
+    border: 2px solid blueviolet;
+}
+
+.box-1 {
+    background-color: cadetblue;
+    min-height: 200px;
+}
+
+.box-2 {
+    background-color: forestgreen;
+    min-height: 200px;
+}
+
+.box-3 {
+    background-color: deeppink;
+    min-height: 200px;
+}
+
+.box-4 {
+    background-color: orangered;
+    min-height: 200px;
+}
+
+.box-5 {
+    background-color: darkcyan;
+}
+
+.box-6 {
+    background-color: yellow;
+}
