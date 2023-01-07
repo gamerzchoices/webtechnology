@@ -4,10 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="yandex-verification" content="2942889654fa0bd3" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Dynamic website of Prabesh Gupta using HTML and CSS">
-    <meta name="keywords" content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
-    <meta name="author" content="Prabesh Gupta">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Dynamic website of Prabesh Gupta using HTML and CSS">
+  <meta name="keywords"
+    content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
+  <meta name="author" content="Prabesh Gupta">
   <title>Prabesh Gupta</title>
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
@@ -20,16 +21,16 @@
   </header>
 
   <nav>
-        <a href="index.php">Home</a>
-        <a href="interest.php">Interest</a>
-        <a href="qualification.php">Qualification</a>
-        <a href="gallery.php">Gallery</a>
-        <a href="contact.php">Contact</a>
-        <div class="nav-right">
-            <a href="register.php">Register</a>
-            <a href="login.php">Login</a>
-        </div>
-    </nav>
+    <a href="index.php">Home</a>
+    <a href="interest.php">Interest</a>
+    <a href="qualification.php">Qualification</a>
+    <a href="gallery.php">Gallery</a>
+    <a href="contact.php">Contact</a>
+    <div class="nav-right">
+      <a href="register.php">Register</a>
+      <a href="login.php">Login</a>
+    </div>
+  </nav>
 
   <div class="bannerArt">
     <a href="index.php"><img src="img/Banner.png" alt="Banner" /></a>
@@ -84,7 +85,9 @@
   </section>
 
   <footer>
-    <p>Copyright &copy;2022 Prabesh Gupta</p>
+    <p>Copyright &copy;2023 Prabesh Gupta</p>
+    <a href="privacy-policy.html">Privacy Policy</a>
+    <a href="terms-and-condtions.html">Terms & Conditions</a>
   </footer>
 </body>
 

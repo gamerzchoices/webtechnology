@@ -85,7 +85,7 @@ if (isset($_POST['register'])) {
     </div>
 
     <footer>
-        <p>Copyright &copy;2022 Prabesh Gupta</p>
+        <p>Copyright &copy;2023 Prabesh Gupta</p>
     </footer>
 
     <script src="script.js"></script>

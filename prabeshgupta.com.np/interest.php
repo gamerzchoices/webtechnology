@@ -6,7 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="Interest of Prabesh Gupta">
-    <meta name="keywords" content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
+    <meta name="keywords"
+        content="Prabesh Gupta, imprabesh, prabeshgupta, imprabeshgupta, prabesh gupta official website, prabesh site, prabesh official site, prabeshgupta website, prabesh gupta facebook, prabesh gupta homepage, prabesh introduction, prabesh photos, prabesh qualification, prabesh images, prabesh gupta photos, prabesh gupta, nepal, prabesh gupta nepal, prabesh gupta nepali, prabesh, gupta, designer, digital marketer, dynamic site, login prabesh gupta, register on prabesh gupta">
     <meta name="author" content="Prabesh Gupta">
 
     <title>Prabesh Gupta</title>
@@ -85,7 +86,7 @@
     </div>
 
     <footer>
-        <p>Copyright &copy;2022 Prabesh Gupta</p>
+        <p>Copyright &copy;2023 Prabesh Gupta</p>
     </footer>
 </body>
 

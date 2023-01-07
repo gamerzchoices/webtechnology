@@ -38,3 +38,24 @@
 .box-6 {
     background-color: yellow;
 }
+
+.colorred {
+    background-color: red;
+    /* font-size: large; */
+}
+
+.coloryellow {
+    background-color: yellow;
+    /* font-size: small; */
+    /* For vertical alignment and self */
+}
+
+.colorgreen {
+    background-color: lightgreen;
+    /* font-size: medium; */
+}
+
+.colorblue {
+    background-color: blue;
+    /* font-size: xx-large; */
+}
