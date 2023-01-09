@@ -6,7 +6,14 @@ Order
 Nesting
 Margin
 Padding
-Horizontal Alignment Item
-Horizontal Alignment
-
-
+Horizontal Alignment Content
+Vertical Alignment Item 
+Vertical Alignment Content
+Vertical Alignment Self
+Flex Direction
+Flex Fill
+Display
+Display-Flex
+Float
+Position
+Overflow

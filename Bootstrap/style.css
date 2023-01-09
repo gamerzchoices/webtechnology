@@ -39,23 +39,27 @@
     background-color: yellow;
 }
 
-.colorred {
+.red {
     background-color: red;
     /* font-size: large; */
 }
 
-.coloryellow {
+.yellow {
     background-color: yellow;
     /* font-size: small; */
     /* For vertical alignment and self */
 }
 
-.colorgreen {
-    background-color: lightgreen;
+.green {
+    background-color: green;
     /* font-size: medium; */
 }
 
-.colorblue {
+.blue {
     background-color: blue;
     /* font-size: xx-large; */
+}
+
+.pink {
+    background-color: pink;
 }
