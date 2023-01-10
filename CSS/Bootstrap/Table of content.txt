@@ -17,3 +17,7 @@ Display-Flex
 Float
 Position
 Overflow
+Background Color
+Text Formating
+Typography
+Button
